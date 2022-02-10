@@ -3,19 +3,93 @@
 }
 h1{
     font-size: 50px;
+    font-weight: bold;
 }
 .name-highlight{
     color: orange;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin: 5%;
-
+    margin-left: 5%;
+    padding-left: 4%;
+    
 }
 .half-width img{
     width: 100%;
+}
+.my_button{
+    height: 60px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.my_button1{
+    height: 60px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+a{
+    text-decoration:none;
+    color: aqua;
+}
+h2{
+    font-weight: bolder;
+    font-size: 50px;
+}
+h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+p{
+    font-weight: 700;
+    font-size: 35px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dreambg{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+}
+section{
+    height: 850px;
+}
+.exp-class{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, blue);
+    border-image-slice: 1;
+}
+#Badydev{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , rgb(247, 139, 106));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
